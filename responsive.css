@@ -1,0 +1,66 @@
+@media screen and (min-width: 480px) {
+
+	.wrapper {
+		padding-bottom: 0; 
+	}
+
+	.wrapper img {
+		padding-bottom: 2em;
+		width: 10%;
+	}
+
+	.top {
+		padding-top: 0;
+	}
+
+	.middle {
+		padding-top: 0;
+		padding-bottom: 2em;
+	}
+
+	.buttom {
+		padding-top: 1em;
+		padding-bottom: 2em;
+	}
+
+	.buttom h3 {
+		font-size: .8em;
+	}
+
+	.buttom h5 {
+		font-size: .6em;
+	}
+
+	.how h3 {
+		padding-top: 0;
+		padding-bottom: .2em;
+	}
+
+	.how img {
+		width: 40%;
+	}
+
+	.looking {
+		padding-bottom: 0;
+	}
+	.looking h2 {
+		padding: 0 0;
+	}
+
+	.go {
+		display: inline-block;
+	}
+
+
+	.partners {
+		padding-top: 0;
+	}
+
+	.partners ul li {
+		max-width: 5%;
+	}
+
+	.footer {
+		padding-top: .2em;
+	}
+}
