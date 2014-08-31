@@ -1,0 +1,190 @@
+/************************************
+main.css contains styling for mobile
+diplay screen sizes
+***********************************/
+
+/*************
+GENERAL STYLE
+*************/
+
+img {
+	max-width: 100%;
+}
+
+div button {
+	padding: .3em 1em .3em 1em;
+	border: none;
+	color: #fff;
+	background-color: green;
+}
+
+
+/************
+HEADER STYLE
+************/
+.wrapper {
+	background-image: url(DG.jpg);
+	background-size: 100%;
+}
+
+.wrapper img {
+	padding: 0 0 1em 2em;
+	width: 13%;
+	opacity: .5;
+}
+
+.top ul {
+	width: 100%;
+	text-align: right;
+	background-color: rgba(255, 255, 255, .5);
+	list-style: none;
+}
+
+.top ul li {
+	display: inline-block;
+	font-family: arial;
+	font-size: .6em;
+	padding: 0 2em .2em .5em;
+}
+
+.middle {
+	padding-left: 4em;
+	padding-bottom: .7em;
+}
+
+.middle h3 {
+	font-size: 1em;
+	font-family: comic;
+	font-weight: bolder;
+	padding-bottom: .5em;
+}
+
+.middle li {
+	font-size: .65em;
+	font-family: arial;
+}
+
+.middle li:nth-child(4) {
+	padding-bottom: .5em;
+}
+
+
+.buttom {
+	background-color: rgba(0, 0, 0, .65);
+	text-align: center;
+	padding: .5em 0;
+	font-family: arial;
+}
+
+.buttom h3 {
+	font-size: .95em;
+	color: #fff;
+}
+
+.buttom h5 {
+	font-size: .5em;
+	color: #fff;
+}
+
+strong {
+	font-size: 2em;
+}
+/************
+SECTION STYLE
+************/
+section {
+	padding: auto;
+	text-align: center;
+}
+
+.how {
+	display: block;
+	padding: 1em 0 0 0;
+	background-color: #F5F5F5;
+	
+}
+
+.how h3 {
+	padding-bottom: 1.5em;
+	color: grey;
+	font-family: arial;
+	font-size: 1em;
+}
+
+.how img {
+	margin: auto;
+	padding: 0 0 .2em 0;
+}
+
+.looking {
+	display: block;
+	background-image: url(BG.jpg);
+	background-size: 100%;
+	padding: 1em 0;
+}
+
+
+.looking h2 {
+	color: #000;
+	font-family: arial;
+	font-size: 1em;
+	padding-bottom: 1em;
+}
+
+.looking p {
+	font-size: .76em;
+	font-family: arial;
+	padding-bottom: .5em;
+}
+
+
+.partners h3 {
+	font-size: 1em;
+	font-family: comic;
+	padding: 1em 0 0 0;
+}
+
+.partners ul {
+	list-style: none;
+}
+
+.partners ul li {
+	display: inline-block;
+	max-width: 15%;
+	padding: 1em 1em 1em 1em;
+}
+
+
+
+/***********
+FOOTER STYLE
+************/
+footer {
+	margin: auto;
+	display: block;
+}
+
+.thickness {
+	background-color: green;
+	margin: auto;
+	padding: .1em .1em;
+}
+
+.footer {
+	background-color: #001111;
+	margin: auto;
+	padding: 1em  0 1em 3em;
+}
+
+.footer ul {
+	list-style: none;
+}
+
+.footer ul li {
+	font-size: .5em;
+	font-family: arial;
+	color: #fff;
+	display: inline-block;
+	padding: 0 .5em 0 .5em;
+}
+
