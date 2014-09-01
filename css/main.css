@@ -23,7 +23,7 @@ div button {
 HEADER STYLE
 ************/
 .wrapper {
-	background-image: url(nice.jpg);
+	background-image: url(../img/nice.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -127,7 +127,7 @@ section {
 
 .looking {
 	display: block;
-	background-image: url(012.jpg);
+	background-image: url(../img/012.jpg);
 	background-size: 100%;
 	background-position: center;
 	padding: .5em 0;
