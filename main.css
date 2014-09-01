@@ -15,7 +15,7 @@ div button {
 	padding: .3em 1em .3em 1em;
 	border: none;
 	color: #fff;
-	background-color: green;
+	background-color: darkgreen;
 }
 
 
@@ -23,14 +23,15 @@ div button {
 HEADER STYLE
 ************/
 .wrapper {
-	background-image: url(DG.jpg);
-	background-size: 100%;
+	background-image: url(nice.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .wrapper img {
-	padding: 0 0 1em 2em;
-	width: 13%;
-	opacity: .5;
+	padding: 0 0 1em 1em;
+	width: 20%;
+	opacity: .6;
 }
 
 .top ul {
@@ -42,30 +43,32 @@ HEADER STYLE
 
 .top ul li {
 	display: inline-block;
-	font-family: arial;
-	font-size: .6em;
-	padding: 0 .5em .2em .5em;
+	font-family: Times;
+	font-size: .75em;
+	padding: 1em .5em 1em .5em;
 }
 
 .middle {
-	padding-left: 4em;
+	padding-left: 1em;
 	padding-bottom: .7em;
 }
 
 .middle h3 {
-	font-size: 1em;
-	font-family: comic;
+	font-size: 1.5em;
+	font-family: Times;
 	font-weight: bolder;
 	padding-bottom: .5em;
 }
 
 .middle li {
-	font-size: .65em;
-	font-family: arial;
+	color: #000;
+	padding-bottom: .3em;
+	font-size: .8em;
+	font-family: Times;
 }
 
 .middle li:nth-child(4) {
-	padding-bottom: .5em;
+	padding-bottom: .6em;
 }
 
 
@@ -73,16 +76,16 @@ HEADER STYLE
 	background-color: rgba(0, 0, 0, .65);
 	text-align: center;
 	padding: .5em 0;
-	font-family: arial;
+	font-family: Times;
 }
 
-.buttom h3 {
-	font-size: .95em;
+.buttom h2 {
+	font-size: .99em;
 	color: #fff;
 }
 
 .buttom h5 {
-	font-size: .5em;
+	font-size: .6em;
 	color: #fff;
 }
 
@@ -99,7 +102,7 @@ section {
 
 .how {
 	display: block;
-	padding: 1em 0 0 0;
+	padding: 1.5em 0 1.5em 0;
 	background-color: #F5F5F5;
 	
 }
@@ -107,41 +110,44 @@ section {
 .how h3 {
 	padding-bottom: 1.5em;
 	color: grey;
-	font-family: arial;
-	font-size: 1em;
+	font-family: comic;
+	font-size: 1.5em;
 }
 
 .how img {
+	width: 100%;
+	height: 10%;
 	margin: auto;
 	padding: 0 0 .2em 0;
 }
 
 .looking {
 	display: block;
-	background-image: url(BG.jpg);
+	background-image: url(012.jpg);
 	background-size: 100%;
-	padding: .1em 0;
+	background-position: center;
+	padding: .5em 0;
 }
 
 
 .looking h2 {
 	color: #000;
-	font-family: arial;
-	font-size: 1em;
-	padding-bottom: 1em;
+	font-family: comic;
+	font-size: 1.3em;
+	padding: 1em 0;
 }
 
 .looking p {
-	font-size: .76em;
-	font-family: arial;
+	font-size: .8em;
+	font-family: Times;
 	padding-bottom: .5em;
 }
 
 
 .partners h3 {
-	font-size: 1em;
+	font-size: 1.5em;
 	font-family: comic;
-	padding: .3em 0 0 0;
+	padding: .5em 0 .5em 0;
 }
 
 .partners ul {
@@ -150,8 +156,8 @@ section {
 
 .partners ul li {
 	display: inline-block;
-	max-width: 15%;
-	padding: 1em .4em .5em .4em;
+	max-width: 16%;
+	padding: 0 .4em 1em .4em;
 }
 
 
@@ -173,7 +179,7 @@ footer {
 .footer {
 	background-color: #001111;
 	margin: auto;
-	padding: 1em  0 1em 3em;
+	padding: 1em  0 1em 1.5em;
 }
 
 .footer ul {
@@ -181,8 +187,8 @@ footer {
 }
 
 .footer ul li {
-	font-size: .5em;
-	font-family: arial;
+	font-size: .65em;
+	font-family: Times;
 	color: #fff;
 	display: inline-block;
 	padding: 0 .5em 0 .5em;

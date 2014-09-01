@@ -1,6 +1,7 @@
 @media screen and (min-width: 480px) {
 
 	.wrapper {
+		background-position: top;
 		padding-bottom: 0; 
 	}
 
@@ -13,9 +14,19 @@
 		padding-top: 0;
 	}
 
+	.top ul li {
+		font-size: 1em;
+	}
+
 	.middle {
+		padding-left: 5em;
 		padding-top: 0;
 		padding-bottom: 2em;
+	}
+
+	.middle li {
+		font-size: .9em;
+		color: #000;
 	}
 
 	.buttom {
@@ -23,15 +34,16 @@
 		padding-bottom: 2em;
 	}
 
-	.buttom h3 {
-		font-size: .8em;
+	.buttom h2 {
+		font-size: 2em;
 	}
 
 	.buttom h5 {
-		font-size: .6em;
+		font-size: 1.2em;
 	}
 
 	.how h3 {
+		font-size: 1em;
 		padding-top: 0;
 		padding-bottom: .2em;
 	}
@@ -40,11 +52,22 @@
 		width: 40%;
 	}
 
+	.how h3 {
+		font-size: 2em;
+		padding-bottom: .5em;
+	}
+
 	.looking {
-		padding: .5em 0;
+		background-image: url(BG.jpg);
+		padding: 0 0 1em 0;
 	}
 	.looking h2 {
+		font-size: 2em;
 		padding-bottom: .5em;
+	}
+
+	.looking p {
+		font-size: 1em;
 	}
 
 	.go {
@@ -63,5 +86,10 @@
 
 	.footer {
 		padding-top: .2em;
+	}
+
+	.footer ul li {
+		padding-top: .5em;
+		font-size: .8em;
 	}
 }
