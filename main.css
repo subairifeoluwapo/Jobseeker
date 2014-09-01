@@ -44,7 +44,7 @@ HEADER STYLE
 	display: inline-block;
 	font-family: arial;
 	font-size: .6em;
-	padding: 0 2em .2em .5em;
+	padding: 0 .5em .2em .5em;
 }
 
 .middle {
@@ -151,7 +151,7 @@ section {
 .partners ul li {
 	display: inline-block;
 	max-width: 15%;
-	padding: 1em 1em .5em 1em;
+	padding: 1em .4em .5em .4em;
 }
 
 

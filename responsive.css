@@ -57,7 +57,8 @@
 	}
 
 	.partners ul li {
-		max-width: 5%;
+		max-width: 7%;
+		padding: 0 3em 0 3em;
 	}
 
 	.footer {
