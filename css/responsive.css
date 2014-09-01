@@ -1,5 +1,9 @@
 @media screen and (min-width: 480px) {
 
+	span {
+		color: #fff;
+	}
+
 	.wrapper {
 		background-position: top;
 		padding-bottom: 0; 
@@ -25,8 +29,13 @@
 	}
 
 	.middle li {
-		font-size: .9em;
+		font-size: 1.3em;
 		color: #000;
+	}
+
+	div button {
+		padding: 1em 1em 1em 1em;
+		font-size: 1em;
 	}
 
 	.buttom {
@@ -42,54 +51,62 @@
 		font-size: 1.2em;
 	}
 
-	.how h3 {
-		font-size: 1em;
-		padding-top: 0;
-		padding-bottom: .2em;
-	}
-
 	.how img {
-		width: 40%;
+		height: 15%;
+		width: 50%;
 	}
 
 	.how h3 {
-		font-size: 2em;
-		padding-bottom: .5em;
+		font-size: 2.5em;
+		padding-bottom: 1em;
 	}
 
 	.looking {
-		background-image: url(../img/BG.jpg);
+		background-image: url(../img/014.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
 		padding: 0 0 1em 0;
 	}
 	.looking h2 {
-		font-size: 2em;
+		font-size: 2.5em;
 		padding-bottom: .5em;
 	}
 
 	.looking p {
-		font-size: 1em;
+		font-size: 1.5em;
 	}
 
 	.go {
 		display: inline-block;
 	}
 
+	.partners h3 {
+		font-size: 2em;
+		padding-bottom: 1em;
+	}
 
 	.partners {
-		padding: .5em 0;
+		padding: 1em 0;
 	}
 
 	.partners ul li {
-		max-width: 7%;
-		padding: 0 3em 0 3em;
+		height: 10%;
+		width: 7%;
+		padding: 2em 3em 2em 3em;
 	}
 
+.thickness {
+	padding: .2em 0;
+}
+
 	.footer {
-		padding-top: .2em;
+		padding-top: .5em;
+		padding-bottom: .5em;
 	}
 
 	.footer ul li {
-		padding-top: .5em;
-		font-size: .8em;
+		padding-bottom: 1em;
+		padding-top: 1em;
+		font-size: 1em;
 	}
 }
