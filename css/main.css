@@ -34,7 +34,12 @@ HEADER STYLE
 	opacity: .6;
 }
 
-span {
+
+li span {
+	color: #000;
+}
+
+p span {
 	color: #fff;
 }
 
