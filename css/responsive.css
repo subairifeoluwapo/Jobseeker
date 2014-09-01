@@ -58,7 +58,7 @@
 	}
 
 	.looking {
-		background-image: url(BG.jpg);
+		background-image: url(../img/BG.jpg);
 		padding: 0 0 1em 0;
 	}
 	.looking h2 {
